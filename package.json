@@ -1,0 +1,22 @@
+{
+  "name": "koa-redis-rest-server",
+  "version": "0.0.1",
+  "description": "Koa + Redis CORS REST API Server",
+  "main": "server.js",
+  "author": {
+    "name": "Jordan Coeyman",
+    "email": "coeyman@gmail.com",
+    "url": "http://acoyfellow.com",
+    "twitter": "https://twitter.com/acoyfellow"
+  },
+  "dependencies": {
+    "brain": "^0.7.0",
+    "hiredis": "^0.1.17",
+    "koa": "^0.9.0",
+    "koa-body-parser": "^1.1.0",
+    "koa-cors": "0.0.13",
+    "koa-router": "3.4.0",
+    "q": "^1.0.1",
+    "redis": "^0.12.1"
+  }
+}
