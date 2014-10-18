@@ -1,8 +1,3 @@
-/**
-  bounce rate:
-  the percentage of visitors to a particular website who navigate away from the site after viewing only one page.
-*/
-
 var koa = require('koa'),
     app = koa(),
     Q = require("q"),
