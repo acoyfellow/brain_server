@@ -1,7 +1,7 @@
-Neural_Network_API
+brain_server
 ==================
 
-A lightweight Koa server that uses brain.js and Redis as a datastore.
+A lightweight HTTP Koa server that uses brain.js and Redis as a datastore.
 
 1. Install Node.js (at least 11.13)
 2. Install Redis
