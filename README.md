@@ -5,9 +5,9 @@ A lightweight Koa server that uses brain.js and Redis as a datastore.
 
 1. Install Node.js (at least 11.13)
 2. Install Redis
-3. 'git pull https://github.com/acoyfellow/brain_server.git'
+3. `git pull https://github.com/acoyfellow/brain_server.git`
 4. Add training data
-5. 'HTTP GET' the root url for to classify '{ r: 1, g: 0.4, b: 0 }'
+5. `HTTP GET` the root url for to classify `{ r: 1, g: 0.4, b: 0 }`
 
 This is a simple starter point for writing an API that uses brain.js (which uses a neural network + backpropogation algo for training) to do some simple classification.
 
@@ -25,7 +25,7 @@ Here is some training data you can use
 
 
 *To insert data into Redis: *
-- 'HTTP POST' to the endpoint 'http://{your_server}/insert' in x-www-form-urlencoded format with 4 inputs
-- 'r', 'g', 'b', and 'output'. 
-- 'r', 'g', and 'b' are numbers 
-- 'output' is boolean 0 or 1, where 0 is White and 1 is Black.
+- `HTTP POST` to the endpoint `http://{your_server}/insert` in x-www-form-urlencoded format with 4 inputs
+- `r`, `g`, `b`, and `output`. 
+- `r`, `g`, and `b` are numbers 
+- `output` is boolean 0 or 1, where 0 is White and 1 is Black.
