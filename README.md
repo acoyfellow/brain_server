@@ -1,7 +1,7 @@
 brain_server
 ==================
 
-A lightweight HTTP Koa server that uses brain.js and Redis as a datastore.
+A lightweight HTTP Koa server that uses Q, brain.js, and Redis as a datastore. Can be used as a good starting point for anyone interested in machine learning with Javascript. 
 
 1. Install Node.js (at least 11.13)
 2. Install Redis

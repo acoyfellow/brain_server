@@ -1,5 +1,5 @@
 {
-  "name": "koa-redis-rest-server",
+  "name": "brain-server",
   "version": "0.0.1",
   "description": "Koa + Redis CORS REST API Server",
   "main": "server.js",
