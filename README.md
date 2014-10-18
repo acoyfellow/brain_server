@@ -3,11 +3,11 @@ Neural_Network_API
 
 A lightweight Koa server that uses brain.js and Redis as a datastore.
 
-1) Install Node.js (at least 11.13)
-2) Install Redis
-3) 'git pull https://github.com/acoyfellow/brain_server.git'
-4) Add training data
-5) 'HTTP GET' the root url for to classify '{ r: 1, g: 0.4, b: 0 }'
+1. Install Node.js (at least 11.13)
+2. Install Redis
+3. 'git pull https://github.com/acoyfellow/brain_server.git'
+4. Add training data
+5. 'HTTP GET' the root url for to classify '{ r: 1, g: 0.4, b: 0 }'
 
 This is a simple starter point for writing an API that uses brain.js (which uses a neural network + backpropogation algo for training) to do some simple classification.
 
